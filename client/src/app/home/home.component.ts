@@ -16,10 +16,9 @@ export class HomeComponent implements OnInit {
   constructor(private datosService: DatosService) { }
 
   ngOnInit() {
-    let users$ : Observable<any> = this.datosService.getUsers();
+    let users$: Observable<any> = this.datosService.getUsers();
     users$.subscribe(users => {
-      // this.tipos = res.json(); 
-      console.log(users);
+      // console.log(users); 
       this.users = users;
     });
   }
