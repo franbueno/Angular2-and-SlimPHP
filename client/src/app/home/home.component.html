@@ -1,0 +1,27 @@
+<div class="home">
+  <div class="container">
+    <h2 class="home-title">Bootstrap Table</h2>
+    <p class="home-lead">Simple Bootstrap Table</p>
+    <hr class="home-half-rule">
+    <div class="row bs-docs-featured-sites">
+      <div class="col-sm-12">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Name</th>
+              <th>Teams</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let user of users; let i=index">
+              <th >{{i + 1}}</th>
+              <td>{{user.first_name}} {{user.last_name}}</td>
+              <td>{{user.teamsuser}}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,39 @@
+.home {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+    text-align: center;
+    background-color: #fff;
+    border-bottom: 1px solid #e5e5e5;
+
+    .home-title {
+        margin-bottom: 5px;
+        font-size: 30px;
+        font-weight: 400;
+        color: #333;
+    }
+    .home-lead {
+        margin-bottom: 20px;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 1.4;
+    }
+    .home-half-rule {
+        width: 100px;
+        margin: 40px auto;
+    }
+
+    th{
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px){
+    .home-lead {
+        max-width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
