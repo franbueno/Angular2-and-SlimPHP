@@ -1,2 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~http://getbootstrap.com/dist/css/bootstrap.min.css';
+
+a {
+    color: #fff;
+    &:hover,
+    &:focus{
+      color: #fff;  
+    }
+}
