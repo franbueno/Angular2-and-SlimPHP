@@ -2,6 +2,8 @@
 
 A basic User API client built with Angular2 and SlimPHP.
 
+![Alt text](https://s29.postimg.org/q1ag87kk7/2016_12_18_19_46_49.pngt "Screenshot")
+
 # Backend
 
 ```bash
